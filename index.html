@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>前端测试</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="js/jquery.min.js">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <script>
+	    window.onload = window.onresize = function(){
+	        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+	        var _html = document.getElementsByTagName('html')[0];
+	        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+	    }
+	</script>
+</head>
+<body>
+    <div class="box">
+        <div class="top" id="top">
+        <span class="iconfont">&#xe622;返回</span>
+        <span>
+            BP中国
+        </span>
+        <span class="iconfont">&#xe60c;</span>
+        </div>
+        <ul id="box1" class="box1">
+            <li class="show"><span class="iconfont">&#xe663;</span><p class="p1">BP能源展望</p></li>
+            <li  id="show" ><em>bp</em><span class="iconfont">&#xe627;</span><p class="p2">BP怎么说</p> </li>
+            <li><p class="p3">BP统计年鉴</p><span class="iconfont">&#xe66d;</span></li>
+            <li><p class="p4">技术展望</p><span class="iconfont">&#xe6d9;</span></li>
+        </ul>
+        <div class="cd iconfont">
+            &#xe609;
+        </div>
+        
+        <div id="tanc" class="tanc">
+            <p id="guan" class="guan">&times;</p>
+            <i class="xian"></i>
+            <div class="top-t">
+                <img src="img/touxiang.png" alt="1">
+                <h3>戴德立( Bob Dudley )</h3>
+                <h4>BP集团首席执行官</h4>
+            </div>
+            <p class="bottom-t">
+                “现在油价确实已经跌到一个很低的水平,石油行
+                业上- -次感受到如此强力的低油价冲击还是在1987
+                年。目前市场正处于一个经典的供过于求的状态,
+                这也是全球范围内油气投资都在锐减的原因。我认
+                为油价会在比较长的时间内保持低位,但不会是永
+                远的低位。"
+                <br>
+                <br>
+                “我认为石油变成‘夕阳行业至少是半个世纪以
+                后的事,毕竟在目前的能源结构中,化石燃料的整
+                体使用量仍维持在一个很高的水平。当今世界87%
+                的能源供应来自包括天然气、石油和煤炭在内的化
+                石燃料,我读到的分析报告也一致认为,未来20年
+                这个数字都将维持在80%左右。”
+                <br>
+                <br>
+                “BP和我本，人都认为,能源结构向低碳方向转型是
+                大势所趋,石油公司也要为此做好准备。正是因为
+                这个原因,我们花了很多时间去考虑BP的未来,
+                也在积极思考如何成为低碳转型解决方案的参与者
+                。在2015年10月巴黎气候大会期间，世界十大油
+                气公司组成了油气行业气候倡议” 组织( OGCI
+                )。BP和中石油9都是成员单位。”
+
+            </p>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

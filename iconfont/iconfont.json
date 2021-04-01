@@ -1,0 +1,58 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5800661",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "7350312",
+      "name": "数据，柱形图，显示器",
+      "font_class": "huabankaobei-",
+      "unicode": "e66d",
+      "unicode_decimal": 58989
+    },
+    {
+      "icon_id": "14421416",
+      "name": "眼睛",
+      "font_class": "yanjing_huaban1",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "14991002",
+      "name": "菊花2",
+      "font_class": "juhua2",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "15053876",
+      "name": "菜单",
+      "font_class": "24px",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "17199070",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "18459198",
+      "name": "生物",
+      "font_class": "shengwu",
+      "unicode": "e6d9",
+      "unicode_decimal": 59097
+    }
+  ]
+}
